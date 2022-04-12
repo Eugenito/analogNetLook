@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BasicFileSys">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAEAAAAAAAAAQACAAAAAAAAAQAAAAAAABAAAAAAA=</HashCode>
+      <FileName>BasicFileSys.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Disk">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAABAAABAAA=</HashCode>
+      <FileName>Disk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSys">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="FileSys::Command" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FileSys.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAABAAAgAADBgAAAAAAAQBAAAAQAhAFAANAAAAICAA=</HashCode>
+      <FileName>FileSys.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shell">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Shell::Command" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Shell.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgICAIgABgBDAAAAAAEgEghIABAAAAAABAABAQA=</HashCode>
+      <FileName>Shell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="superblock_t">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Blocks.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dirblock_t">
+    <Position X="8.75" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="dirblock_t::__unnamed_struct_0082_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Blocks.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAABA=</HashCode>
+      <FileName>Blocks.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="inode_t">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAABBA=</HashCode>
+      <FileName>Blocks.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="datablock_t">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Blocks.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
